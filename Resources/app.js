@@ -8,9 +8,8 @@ var tblSection = Ti.UI.createTableViewSection({
 });
 var sections = [tblSection];
 
-
-functions.create();
 data1.read();
+data1.start();
 data1.setUp();
 tableView.setData(sections);
 // console.log(sections);
