@@ -15,7 +15,7 @@ var numTxt;
 var upd;
 
 var back = function(){
-	console.log(data);
+	//console.log(data);
 	tabGroup.setActiveTab(tab1);
 	
 };
@@ -71,7 +71,6 @@ var fun = function(e){
 	});
 	tabGroup.hide();
 	back.addEventListener("click", function(){
-		win.close();
 		tabGroup.show();
 	});
 	upd.addEventListener("click", function(){
